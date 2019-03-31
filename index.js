@@ -7,3 +7,8 @@ var customerName = 'bob';
 function upperCaseCustomerName() {
   customerName = customerName.toUpperCase();
 }
+
+// Write a function that when called, declares a variable called bestCustomer in global scope and assigns it to be 'not bob'
+function setBestCustomer() {
+  const bestCustomer = 'not bob';
+}
