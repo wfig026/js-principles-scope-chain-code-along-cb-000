@@ -24,5 +24,5 @@ function overWriteBestCustomer() {
    to change that constant - notice what Javascript does when you try to change the constant. */
 const leastFavoriteCustomer = 'steve';
 function leastFavoriteCustomer() {
-  leastFavoriteCustomer = 'bill';
+  const leastFavoriteCustomer = 'bill';
 }
