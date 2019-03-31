@@ -32,6 +32,6 @@ function changeLeastFavoriteCustomer() {
 This helps illustrate how let only allows a given variable to be declared one time, but that variable can be re-assigned to a different value. However, const does
 not allow re-assignment, nor does it allow the same constant to be declared more than once. */
 function attemptTwoFavoriteCustomers() {
-  let favoriteCustomer = 'jen'
-  let favoriteCustomer = 'sal'
+  let favoriteCustomer = 'jen';
+  let favoriteCustomer = 'sal';
 }
