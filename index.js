@@ -33,5 +33,5 @@ This helps illustrate how let only allows a given variable to be declared one ti
 not allow re-assignment, nor does it allow the same constant to be declared more than once. */
 function attemptTwoFavoriteCustomers() {
   let favoriteCustomer = 'joe';
-  let favoriteCustomer = 'bill';
+  // let favoriteCustomer = 'bill';
 }
