@@ -17,5 +17,5 @@ function setBestCustomer() {
 
 // See the consequences of declaring a variable in global scope, by writing a new function called overWriteBestCustomer that changes that bestCustomer variable
 function overWriteBestCustomer() {
-  bestCustomer = 'will';
+  bestCustomer = 'maybe bob';
 }
