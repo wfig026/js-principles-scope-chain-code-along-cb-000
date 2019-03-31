@@ -34,4 +34,5 @@ not allow re-assignment, nor does it allow the same constant to be declared more
 function attemptTwoFavoriteCustomers() {
   let favoriteCustomer = 'joe';
   // let favoriteCustomer = 'bill';
+  const favoriteCustomer = 'bill'
 }
