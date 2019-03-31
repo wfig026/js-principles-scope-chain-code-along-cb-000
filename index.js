@@ -20,7 +20,7 @@ function overWriteBestCustomer() {
   bestCustomer = 'maybe bob';
 }
 
-/* Now declare a constant in global scope called leastFavoriteCustomer customer. Ok, now write a function called changeLeastFavoriteCustomer that attempts 
+/* Now declare a constant in global scope called leastFavoriteCustomer customer. Ok, now write a function called changeLeastFavoriteCustomer that attempts
    to change that constant - notice what Javascript does when you try to change the constant. */
 const leastFavoriteCustomer = 'steve';
 function leastFavoriteCustomer() {
